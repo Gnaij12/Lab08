@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/grass">
 
     <view
         class="com.example.lab08.DrawView"
@@ -13,12 +14,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:id="@+id/drawView"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reverseVert"
-        android:id="@+id/reverseY"
-        app:layout_constraintBottom_toBottomOf="@+id/drawView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:onClick="reverseY"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

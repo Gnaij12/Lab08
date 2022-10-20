@@ -13,8 +13,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         drawView = findViewById(R.id.drawView);
     }
-
-    public void reverseY(View view) {
-        drawView.setDy(drawView.getDy()*-1);
-    }
 }
